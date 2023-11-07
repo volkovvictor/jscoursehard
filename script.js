@@ -46,3 +46,9 @@ switch(lang) {
 // 3.
 
 lang === "ru" ? console.log(week[0].join(",")) : console.log(week[1].join(","));
+
+/////////////////////////
+
+const namePerson = "Артем";
+
+namePerson.toLowerCase() === "артем" ? console.log("директор") : namePerson.toLowerCase() === "Александр" ? console.log("преподаватель") : console.log("студент");
